@@ -47,6 +47,7 @@ Contents
 - [ Space Used               ](#space-used)
 - [ Malfunc. Drives          ](#malfunc-drives)
 - [ Malfunc. Drive Vendor    ](#malfunc-drive-vendor)
+- [ Malfunc. HDD Vendor      ](#malfunc-hdd-vendor)
 - [ Malfunc. Drive Kind      ](#malfunc-drive-kind)
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
@@ -77,9 +78,15 @@ Contents
 - [ Multiple Monitors        ](#multiple-monitors)
 - [ Net Controller Vendor    ](#net-controller-vendor)
 - [ Net Controller Model     ](#net-controller-model)
+- [ Wireless Vendor          ](#wireless-vendor)
+- [ Wireless Model           ](#wireless-model)
+- [ Ethernet Vendor          ](#ethernet-vendor)
+- [ Ethernet Model           ](#ethernet-model)
 - [ Net Controller Kind      ](#net-controller-kind)
 - [ Used Controller          ](#used-controller)
 - [ NICs                     ](#nics)
+- [ Bluetooth Vendor         ](#bluetooth-vendor)
+- [ Bluetooth Model          ](#bluetooth-model)
 - [ Unsupported Devices      ](#unsupported-devices)
 - [ Unsupported Device Types ](#unsupported-device-types)
 
@@ -605,6 +612,19 @@ Vendors of faulty drives
 |---------|-----------|--------|---------|
 | Hitachi | 2         | 2      | 100%    |
 
+Malfunc. HDD Vendor
+-------------------
+
+Vendors of faulty HDD drives
+
+![Malfunc. HDD Vendor](./images/pie_chart_bsd/drive_malfunc_hdd_vendor.svg)
+
+![Malfunc. HDD Vendor](./images/line_chart_bsd/drive_malfunc_hdd_vendor.svg)
+
+| Vendor  | Computers | Drives | Percent |
+|---------|-----------|--------|---------|
+| Hitachi | 2         | 2      | 100%    |
+
 Malfunc. Drive Kind
 -------------------
 
@@ -1098,15 +1118,16 @@ Controller vendors
 
 ![Net Controller Vendor](./images/line_chart_bsd/net_vendor.svg)
 
-| Vendor                         | Computers | Percent |
-|--------------------------------|-----------|---------|
-| Intel                          | 15        | 62.5%   |
-| Realtek Semiconductor          | 3         | 12.5%   |
-| Broadcom Inc. and subsidiaries | 2         | 8.33%   |
-| VIA Technologies               | 1         | 4.17%   |
-| Qualcomm Atheros               | 1         | 4.17%   |
-| Emulex                         | 1         | 4.17%   |
-| Accton Technology              | 1         | 4.17%   |
+| Vendor                          | Computers | Percent |
+|---------------------------------|-----------|---------|
+| Intel                           | 15        | 57.69%  |
+| Realtek Semiconductor           | 4         | 15.38%  |
+| Broadcom Inc. and subsidiaries  | 2         | 7.69%   |
+| VIA Technologies                | 1         | 3.85%   |
+| Qualcomm Atheros Communications | 1         | 3.85%   |
+| Qualcomm Atheros                | 1         | 3.85%   |
+| Emulex                          | 1         | 3.85%   |
+| Accton Technology               | 1         | 3.85%   |
 
 Net Controller Model
 --------------------
@@ -1117,32 +1138,118 @@ Controller models
 
 ![Net Controller Model](./images/line_chart_bsd/net_model.svg)
 
+| Model                                                               | Computers | Percent |
+|---------------------------------------------------------------------|-----------|---------|
+| Centrino Advanced-N 6205 [Taylor Peak]                              | 4         | 11.11%  |
+| 82579LM Gigabit Network Connection (Lewisville)                     | 4         | 11.11%  |
+| Wireless 7260                                                       | 3         | 8.33%   |
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller           | 3         | 8.33%   |
+| Wireless-AC 9260                                                    | 1         | 2.78%   |
+| Wireless 8265 / 8275                                                | 1         | 2.78%   |
+| Wireless 8260                                                       | 1         | 2.78%   |
+| Wireless 7265                                                       | 1         | 2.78%   |
+| VT6105M [Rhine-III]                                                 | 1         | 2.78%   |
+| TP-Link TL-WN821N v3 / TL-WN822N v2 802.11n [Atheros AR7010+AR9287] | 1         | 2.78%   |
+| SMC2-1211TX                                                         | 1         | 2.78%   |
+| PRO/Wireless 2915ABG [Calexico2] Network Connection                 | 1         | 2.78%   |
+| OneConnect 10Gb NIC (be3)                                           | 1         | 2.78%   |
+| NetXtreme BCM5751M Gigabit Ethernet PCI Express                     | 1         | 2.78%   |
+| NetXtreme BCM5720 2-port Gigabit Ethernet PCIe                      | 1         | 2.78%   |
+| NetXtreme BCM5719 Gigabit Ethernet PCIe                             | 1         | 2.78%   |
+| Ethernet Connection I219-LM                                         | 1         | 2.78%   |
+| Ethernet Connection I218-V                                          | 1         | 2.78%   |
+| Ethernet Connection I218-LM                                         | 1         | 2.78%   |
+| Ethernet Connection I217-LM                                         | 1         | 2.78%   |
+| Ethernet Connection (4) I219-LM                                     | 1         | 2.78%   |
+| Centrino Wireless-N 6150                                            | 1         | 2.78%   |
+| AR8152 v2.0 Fast Ethernet                                           | 1         | 2.78%   |
+| 82562EZ 10/100 Ethernet Controller                                  | 1         | 2.78%   |
+| 82541EI Gigabit Ethernet Controller                                 | 1         | 2.78%   |
+| 802.11n WLAN Adapter                                                | 1         | 2.78%   |
+
+Wireless Vendor
+---------------
+
+Wireless vendors
+
+![Wireless Vendor](./images/pie_chart_bsd/net_wireless_vendor.svg)
+
+![Wireless Vendor](./images/line_chart_bsd/net_wireless_vendor.svg)
+
+| Vendor                          | Computers | Percent |
+|---------------------------------|-----------|---------|
+| Intel                           | 13        | 86.67%  |
+| Realtek Semiconductor           | 1         | 6.67%   |
+| Qualcomm Atheros Communications | 1         | 6.67%   |
+
+Wireless Model
+--------------
+
+Wireless models
+
+![Wireless Model](./images/pie_chart_bsd/net_wireless_model.svg)
+
+![Wireless Model](./images/line_chart_bsd/net_wireless_model.svg)
+
+| Model                                                               | Computers | Percent |
+|---------------------------------------------------------------------|-----------|---------|
+| Centrino Advanced-N 6205 [Taylor Peak]                              | 4         | 26.67%  |
+| Wireless 7260                                                       | 3         | 20%     |
+| Wireless-AC 9260                                                    | 1         | 6.67%   |
+| Wireless 8265 / 8275                                                | 1         | 6.67%   |
+| Wireless 8260                                                       | 1         | 6.67%   |
+| Wireless 7265                                                       | 1         | 6.67%   |
+| TP-Link TL-WN821N v3 / TL-WN822N v2 802.11n [Atheros AR7010+AR9287] | 1         | 6.67%   |
+| PRO/Wireless 2915ABG [Calexico2] Network Connection                 | 1         | 6.67%   |
+| Centrino Wireless-N 6150                                            | 1         | 6.67%   |
+| 802.11n WLAN Adapter                                                | 1         | 6.67%   |
+
+Ethernet Vendor
+---------------
+
+Ethernet vendors
+
+![Ethernet Vendor](./images/pie_chart_bsd/net_ethernet_vendor.svg)
+
+![Ethernet Vendor](./images/line_chart_bsd/net_ethernet_vendor.svg)
+
+| Vendor                         | Computers | Percent |
+|--------------------------------|-----------|---------|
+| Intel                          | 11        | 55%     |
+| Realtek Semiconductor          | 3         | 15%     |
+| Broadcom Inc. and subsidiaries | 2         | 10%     |
+| VIA Technologies               | 1         | 5%      |
+| Qualcomm Atheros               | 1         | 5%      |
+| Emulex                         | 1         | 5%      |
+| Accton Technology              | 1         | 5%      |
+
+Ethernet Model
+--------------
+
+Ethernet models
+
+![Ethernet Model](./images/pie_chart_bsd/net_ethernet_model.svg)
+
+![Ethernet Model](./images/line_chart_bsd/net_ethernet_model.svg)
+
 | Model                                                     | Computers | Percent |
 |-----------------------------------------------------------|-----------|---------|
-| Centrino Advanced-N 6205 [Taylor Peak]                    | 4         | 11.76%  |
-| 82579LM Gigabit Network Connection (Lewisville)           | 4         | 11.76%  |
-| Wireless 7260                                             | 3         | 8.82%   |
-| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller | 3         | 8.82%   |
-| Wireless-AC 9260                                          | 1         | 2.94%   |
-| Wireless 8265 / 8275                                      | 1         | 2.94%   |
-| Wireless 8260                                             | 1         | 2.94%   |
-| Wireless 7265                                             | 1         | 2.94%   |
-| VT6105M [Rhine-III]                                       | 1         | 2.94%   |
-| SMC2-1211TX                                               | 1         | 2.94%   |
-| PRO/Wireless 2915ABG [Calexico2] Network Connection       | 1         | 2.94%   |
-| OneConnect 10Gb NIC (be3)                                 | 1         | 2.94%   |
-| NetXtreme BCM5751M Gigabit Ethernet PCI Express           | 1         | 2.94%   |
-| NetXtreme BCM5720 2-port Gigabit Ethernet PCIe            | 1         | 2.94%   |
-| NetXtreme BCM5719 Gigabit Ethernet PCIe                   | 1         | 2.94%   |
-| Ethernet Connection I219-LM                               | 1         | 2.94%   |
-| Ethernet Connection I218-V                                | 1         | 2.94%   |
-| Ethernet Connection I218-LM                               | 1         | 2.94%   |
-| Ethernet Connection I217-LM                               | 1         | 2.94%   |
-| Ethernet Connection (4) I219-LM                           | 1         | 2.94%   |
-| Centrino Wireless-N 6150                                  | 1         | 2.94%   |
-| AR8152 v2.0 Fast Ethernet                                 | 1         | 2.94%   |
-| 82562EZ 10/100 Ethernet Controller                        | 1         | 2.94%   |
-| 82541EI Gigabit Ethernet Controller                       | 1         | 2.94%   |
+| 82579LM Gigabit Network Connection (Lewisville)           | 4         | 19.05%  |
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller | 3         | 14.29%  |
+| VT6105M [Rhine-III]                                       | 1         | 4.76%   |
+| SMC2-1211TX                                               | 1         | 4.76%   |
+| OneConnect 10Gb NIC (be3)                                 | 1         | 4.76%   |
+| NetXtreme BCM5751M Gigabit Ethernet PCI Express           | 1         | 4.76%   |
+| NetXtreme BCM5720 2-port Gigabit Ethernet PCIe            | 1         | 4.76%   |
+| NetXtreme BCM5719 Gigabit Ethernet PCIe                   | 1         | 4.76%   |
+| Ethernet Connection I219-LM                               | 1         | 4.76%   |
+| Ethernet Connection I218-V                                | 1         | 4.76%   |
+| Ethernet Connection I218-LM                               | 1         | 4.76%   |
+| Ethernet Connection I217-LM                               | 1         | 4.76%   |
+| Ethernet Connection (4) I219-LM                           | 1         | 4.76%   |
+| AR8152 v2.0 Fast Ethernet                                 | 1         | 4.76%   |
+| 82562EZ 10/100 Ethernet Controller                        | 1         | 4.76%   |
+| 82541EI Gigabit Ethernet Controller                       | 1         | 4.76%   |
 
 Net Controller Kind
 -------------------
@@ -1155,8 +1262,8 @@ Ethernet, WiFi or modem
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| Ethernet | 18        | 58.06%  |
-| WiFi     | 13        | 41.94%  |
+| Ethernet | 18        | 54.55%  |
+| WiFi     | 15        | 45.45%  |
 
 Used Controller
 ---------------
@@ -1169,8 +1276,8 @@ Currently used network controller
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| WiFi     | 11        | 57.89%  |
-| Ethernet | 8         | 42.11%  |
+| WiFi     | 13        | 61.9%   |
+| Ethernet | 8         | 38.1%   |
 
 NICs
 ----
@@ -1188,6 +1295,36 @@ Total network controllers on board
 | 1     | 3         | 14.29%  |
 | 3     | 1         | 4.76%   |
 
+Bluetooth Vendor
+----------------
+
+Controller vendors
+
+![Bluetooth Vendor](./images/pie_chart_bsd/bt_vendor.svg)
+
+![Bluetooth Vendor](./images/line_chart_bsd/bt_vendor.svg)
+
+| Vendor        | Computers | Percent |
+|---------------|-----------|---------|
+| Intel         | 2         | 50%     |
+| Broadcom      | 1         | 25%     |
+| Alps Electric | 1         | 25%     |
+
+Bluetooth Model
+---------------
+
+Controller models
+
+![Bluetooth Model](./images/pie_chart_bsd/bt_model.svg)
+
+![Bluetooth Model](./images/line_chart_bsd/bt_model.svg)
+
+| Model                 | Computers | Percent |
+|-----------------------|-----------|---------|
+| Bluetooth V4.0 Module | 2         | 50%     |
+| UGTZ4 Bluetooth       | 1         | 25%     |
+| BCM2045B (BDC-2.1)    | 1         | 25%     |
+
 Unsupported Devices
 -------------------
 
@@ -1199,9 +1336,9 @@ Total unsupported devices on board
 
 | Total | Computers | Percent |
 |-------|-----------|---------|
-| 1     | 10        | 47.62%  |
+| 1     | 9         | 42.86%  |
 | 0     | 7         | 33.33%  |
-| 2     | 4         | 19.05%  |
+| 2     | 5         | 23.81%  |
 
 Unsupported Device Types
 ------------------------
@@ -1214,8 +1351,9 @@ Types of unsupported devices
 
 | Type                     | Computers | Percent |
 |--------------------------|-----------|---------|
-| Communication controller | 14        | 73.68%  |
-| Firewire controller      | 3         | 15.79%  |
-| Network                  | 1         | 5.26%   |
-| Graphics card            | 1         | 5.26%   |
+| Communication controller | 14        | 70%     |
+| Firewire controller      | 3         | 15%     |
+| Net/wireless             | 1         | 5%      |
+| Graphics card            | 1         | 5%      |
+| Card reader              | 1         | 5%      |
 

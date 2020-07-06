@@ -45,6 +45,7 @@ Contents
 - [ Space Used               ](#space-used)
 - [ Malfunc. Drives          ](#malfunc-drives)
 - [ Malfunc. Drive Vendor    ](#malfunc-drive-vendor)
+- [ Malfunc. HDD Vendor      ](#malfunc-hdd-vendor)
 - [ Malfunc. Drive Kind      ](#malfunc-drive-kind)
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
@@ -75,9 +76,15 @@ Contents
 - [ Multiple Monitors        ](#multiple-monitors)
 - [ Net Controller Vendor    ](#net-controller-vendor)
 - [ Net Controller Model     ](#net-controller-model)
+- [ Wireless Vendor          ](#wireless-vendor)
+- [ Wireless Model           ](#wireless-model)
+- [ Ethernet Vendor          ](#ethernet-vendor)
+- [ Ethernet Model           ](#ethernet-model)
 - [ Net Controller Kind      ](#net-controller-kind)
 - [ Used Controller          ](#used-controller)
 - [ NICs                     ](#nics)
+- [ Bluetooth Vendor         ](#bluetooth-vendor)
+- [ Bluetooth Model          ](#bluetooth-model)
 - [ Unsupported Devices      ](#unsupported-devices)
 - [ Unsupported Device Types ](#unsupported-device-types)
 
@@ -527,6 +534,19 @@ Vendors of faulty drives
 |---------|-----------|--------|---------|
 | Hitachi | 1         | 1      | 100%    |
 
+Malfunc. HDD Vendor
+-------------------
+
+Vendors of faulty HDD drives
+
+![Malfunc. HDD Vendor](./images/pie_chart_bsd/drive_malfunc_hdd_vendor.svg)
+
+![Malfunc. HDD Vendor](./images/line_chart_bsd/drive_malfunc_hdd_vendor.svg)
+
+| Vendor  | Computers | Drives | Percent |
+|---------|-----------|--------|---------|
+| Hitachi | 1         | 1      | 100%    |
+
 Malfunc. Drive Kind
 -------------------
 
@@ -943,14 +963,15 @@ Controller vendors
 
 ![Net Controller Vendor](./images/line_chart_bsd/net_vendor.svg)
 
-| Vendor                         | Computers | Percent |
-|--------------------------------|-----------|---------|
-| Intel                          | 2         | 28.57%  |
-| VIA Technologies               | 1         | 14.29%  |
-| Realtek Semiconductor          | 1         | 14.29%  |
-| Emulex                         | 1         | 14.29%  |
-| Broadcom Inc. and subsidiaries | 1         | 14.29%  |
-| Accton Technology              | 1         | 14.29%  |
+| Vendor                          | Computers | Percent |
+|---------------------------------|-----------|---------|
+| Realtek Semiconductor           | 2         | 22.22%  |
+| Intel                           | 2         | 22.22%  |
+| VIA Technologies                | 1         | 11.11%  |
+| Qualcomm Atheros Communications | 1         | 11.11%  |
+| Emulex                          | 1         | 11.11%  |
+| Broadcom Inc. and subsidiaries  | 1         | 11.11%  |
+| Accton Technology               | 1         | 11.11%  |
 
 Net Controller Model
 --------------------
@@ -960,6 +981,74 @@ Controller models
 ![Net Controller Model](./images/pie_chart_bsd/net_model.svg)
 
 ![Net Controller Model](./images/line_chart_bsd/net_model.svg)
+
+| Model                                                               | Computers | Percent |
+|---------------------------------------------------------------------|-----------|---------|
+| VT6105M [Rhine-III]                                                 | 1         | 10%     |
+| TP-Link TL-WN821N v3 / TL-WN822N v2 802.11n [Atheros AR7010+AR9287] | 1         | 10%     |
+| SMC2-1211TX                                                         | 1         | 10%     |
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller           | 1         | 10%     |
+| OneConnect 10Gb NIC (be3)                                           | 1         | 10%     |
+| NetXtreme BCM5720 2-port Gigabit Ethernet PCIe                      | 1         | 10%     |
+| NetXtreme BCM5719 Gigabit Ethernet PCIe                             | 1         | 10%     |
+| 82562EZ 10/100 Ethernet Controller                                  | 1         | 10%     |
+| 82541EI Gigabit Ethernet Controller                                 | 1         | 10%     |
+| 802.11n WLAN Adapter                                                | 1         | 10%     |
+
+Wireless Vendor
+---------------
+
+Wireless vendors
+
+![Wireless Vendor](./images/pie_chart_bsd/net_wireless_vendor.svg)
+
+![Wireless Vendor](./images/line_chart_bsd/net_wireless_vendor.svg)
+
+| Vendor                          | Computers | Percent |
+|---------------------------------|-----------|---------|
+| Realtek Semiconductor           | 1         | 50%     |
+| Qualcomm Atheros Communications | 1         | 50%     |
+
+Wireless Model
+--------------
+
+Wireless models
+
+![Wireless Model](./images/pie_chart_bsd/net_wireless_model.svg)
+
+![Wireless Model](./images/line_chart_bsd/net_wireless_model.svg)
+
+| Model                                                               | Computers | Percent |
+|---------------------------------------------------------------------|-----------|---------|
+| TP-Link TL-WN821N v3 / TL-WN822N v2 802.11n [Atheros AR7010+AR9287] | 1         | 50%     |
+| 802.11n WLAN Adapter                                                | 1         | 50%     |
+
+Ethernet Vendor
+---------------
+
+Ethernet vendors
+
+![Ethernet Vendor](./images/pie_chart_bsd/net_ethernet_vendor.svg)
+
+![Ethernet Vendor](./images/line_chart_bsd/net_ethernet_vendor.svg)
+
+| Vendor                         | Computers | Percent |
+|--------------------------------|-----------|---------|
+| Intel                          | 2         | 28.57%  |
+| VIA Technologies               | 1         | 14.29%  |
+| Realtek Semiconductor          | 1         | 14.29%  |
+| Emulex                         | 1         | 14.29%  |
+| Broadcom Inc. and subsidiaries | 1         | 14.29%  |
+| Accton Technology              | 1         | 14.29%  |
+
+Ethernet Model
+--------------
+
+Ethernet models
+
+![Ethernet Model](./images/pie_chart_bsd/net_ethernet_model.svg)
+
+![Ethernet Model](./images/line_chart_bsd/net_ethernet_model.svg)
 
 | Model                                                     | Computers | Percent |
 |-----------------------------------------------------------|-----------|---------|
@@ -983,7 +1072,8 @@ Ethernet, WiFi or modem
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| Ethernet | 5         | 100%    |
+| Ethernet | 5         | 71.43%  |
+| WiFi     | 2         | 28.57%  |
 
 Used Controller
 ---------------
@@ -996,7 +1086,8 @@ Currently used network controller
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| Ethernet | 3         | 100%    |
+| Ethernet | 3         | 60%     |
+| WiFi     | 2         | 40%     |
 
 NICs
 ----
@@ -1013,6 +1104,20 @@ Total network controllers on board
 | 1     | 3         | 33.33%  |
 | 3     | 1         | 11.11%  |
 | 2     | 1         | 11.11%  |
+
+Bluetooth Vendor
+----------------
+
+Controller vendors
+
+Zero info for selected period =(
+
+Bluetooth Model
+---------------
+
+Controller models
+
+Zero info for selected period =(
 
 Unsupported Devices
 -------------------

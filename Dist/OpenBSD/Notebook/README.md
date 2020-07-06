@@ -45,6 +45,7 @@ Contents
 - [ Space Used               ](#space-used)
 - [ Malfunc. Drives          ](#malfunc-drives)
 - [ Malfunc. Drive Vendor    ](#malfunc-drive-vendor)
+- [ Malfunc. HDD Vendor      ](#malfunc-hdd-vendor)
 - [ Malfunc. Drive Kind      ](#malfunc-drive-kind)
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
@@ -75,9 +76,15 @@ Contents
 - [ Multiple Monitors        ](#multiple-monitors)
 - [ Net Controller Vendor    ](#net-controller-vendor)
 - [ Net Controller Model     ](#net-controller-model)
+- [ Wireless Vendor          ](#wireless-vendor)
+- [ Wireless Model           ](#wireless-model)
+- [ Ethernet Vendor          ](#ethernet-vendor)
+- [ Ethernet Model           ](#ethernet-model)
 - [ Net Controller Kind      ](#net-controller-kind)
 - [ Used Controller          ](#used-controller)
 - [ NICs                     ](#nics)
+- [ Bluetooth Vendor         ](#bluetooth-vendor)
+- [ Bluetooth Model          ](#bluetooth-model)
 - [ Unsupported Devices      ](#unsupported-devices)
 - [ Unsupported Device Types ](#unsupported-device-types)
 
@@ -544,6 +551,19 @@ Vendors of faulty drives
 ![Malfunc. Drive Vendor](./images/pie_chart_bsd/drive_malfunc_vendor.svg)
 
 ![Malfunc. Drive Vendor](./images/line_chart_bsd/drive_malfunc_vendor.svg)
+
+| Vendor  | Computers | Drives | Percent |
+|---------|-----------|--------|---------|
+| Hitachi | 1         | 1      | 100%    |
+
+Malfunc. HDD Vendor
+-------------------
+
+Vendors of faulty HDD drives
+
+![Malfunc. HDD Vendor](./images/pie_chart_bsd/drive_malfunc_hdd_vendor.svg)
+
+![Malfunc. HDD Vendor](./images/line_chart_bsd/drive_malfunc_hdd_vendor.svg)
 
 | Vendor  | Computers | Drives | Percent |
 |---------|-----------|--------|---------|
@@ -1021,6 +1041,76 @@ Controller models
 | Centrino Wireless-N 6150                                  | 1         | 3.85%   |
 | AR8152 v2.0 Fast Ethernet                                 | 1         | 3.85%   |
 
+Wireless Vendor
+---------------
+
+Wireless vendors
+
+![Wireless Vendor](./images/pie_chart_bsd/net_wireless_vendor.svg)
+
+![Wireless Vendor](./images/line_chart_bsd/net_wireless_vendor.svg)
+
+| Vendor | Computers | Percent |
+|--------|-----------|---------|
+| Intel  | 13        | 100%    |
+
+Wireless Model
+--------------
+
+Wireless models
+
+![Wireless Model](./images/pie_chart_bsd/net_wireless_model.svg)
+
+![Wireless Model](./images/line_chart_bsd/net_wireless_model.svg)
+
+| Model                                               | Computers | Percent |
+|-----------------------------------------------------|-----------|---------|
+| Centrino Advanced-N 6205 [Taylor Peak]              | 4         | 30.77%  |
+| Wireless 7260                                       | 3         | 23.08%  |
+| Wireless-AC 9260                                    | 1         | 7.69%   |
+| Wireless 8265 / 8275                                | 1         | 7.69%   |
+| Wireless 8260                                       | 1         | 7.69%   |
+| Wireless 7265                                       | 1         | 7.69%   |
+| PRO/Wireless 2915ABG [Calexico2] Network Connection | 1         | 7.69%   |
+| Centrino Wireless-N 6150                            | 1         | 7.69%   |
+
+Ethernet Vendor
+---------------
+
+Ethernet vendors
+
+![Ethernet Vendor](./images/pie_chart_bsd/net_ethernet_vendor.svg)
+
+![Ethernet Vendor](./images/line_chart_bsd/net_ethernet_vendor.svg)
+
+| Vendor                         | Computers | Percent |
+|--------------------------------|-----------|---------|
+| Intel                          | 9         | 69.23%  |
+| Realtek Semiconductor          | 2         | 15.38%  |
+| Qualcomm Atheros               | 1         | 7.69%   |
+| Broadcom Inc. and subsidiaries | 1         | 7.69%   |
+
+Ethernet Model
+--------------
+
+Ethernet models
+
+![Ethernet Model](./images/pie_chart_bsd/net_ethernet_model.svg)
+
+![Ethernet Model](./images/line_chart_bsd/net_ethernet_model.svg)
+
+| Model                                                     | Computers | Percent |
+|-----------------------------------------------------------|-----------|---------|
+| 82579LM Gigabit Network Connection (Lewisville)           | 4         | 30.77%  |
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller | 2         | 15.38%  |
+| NetXtreme BCM5751M Gigabit Ethernet PCI Express           | 1         | 7.69%   |
+| Ethernet Connection I219-LM                               | 1         | 7.69%   |
+| Ethernet Connection I218-V                                | 1         | 7.69%   |
+| Ethernet Connection I218-LM                               | 1         | 7.69%   |
+| Ethernet Connection I217-LM                               | 1         | 7.69%   |
+| Ethernet Connection (4) I219-LM                           | 1         | 7.69%   |
+| AR8152 v2.0 Fast Ethernet                                 | 1         | 7.69%   |
+
 Net Controller Kind
 -------------------
 
@@ -1062,6 +1152,36 @@ Total network controllers on board
 |-------|-----------|---------|
 | 2     | 12        | 100%    |
 
+Bluetooth Vendor
+----------------
+
+Controller vendors
+
+![Bluetooth Vendor](./images/pie_chart_bsd/bt_vendor.svg)
+
+![Bluetooth Vendor](./images/line_chart_bsd/bt_vendor.svg)
+
+| Vendor        | Computers | Percent |
+|---------------|-----------|---------|
+| Intel         | 2         | 50%     |
+| Broadcom      | 1         | 25%     |
+| Alps Electric | 1         | 25%     |
+
+Bluetooth Model
+---------------
+
+Controller models
+
+![Bluetooth Model](./images/pie_chart_bsd/bt_model.svg)
+
+![Bluetooth Model](./images/line_chart_bsd/bt_model.svg)
+
+| Model                 | Computers | Percent |
+|-----------------------|-----------|---------|
+| Bluetooth V4.0 Module | 2         | 50%     |
+| UGTZ4 Bluetooth       | 1         | 25%     |
+| BCM2045B (BDC-2.1)    | 1         | 25%     |
+
 Unsupported Devices
 -------------------
 
@@ -1073,8 +1193,8 @@ Total unsupported devices on board
 
 | Total | Computers | Percent |
 |-------|-----------|---------|
-| 1     | 9         | 75%     |
-| 2     | 3         | 25%     |
+| 1     | 8         | 66.67%  |
+| 2     | 4         | 33.33%  |
 
 Unsupported Device Types
 ------------------------
@@ -1087,8 +1207,9 @@ Types of unsupported devices
 
 | Type                     | Computers | Percent |
 |--------------------------|-----------|---------|
-| Communication controller | 12        | 70.59%  |
-| Firewire controller      | 3         | 17.65%  |
-| Network                  | 1         | 5.88%   |
-| Graphics card            | 1         | 5.88%   |
+| Communication controller | 12        | 66.67%  |
+| Firewire controller      | 3         | 16.67%  |
+| Net/wireless             | 1         | 5.56%   |
+| Graphics card            | 1         | 5.56%   |
+| Card reader              | 1         | 5.56%   |
 

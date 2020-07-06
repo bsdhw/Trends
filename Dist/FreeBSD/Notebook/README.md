@@ -45,6 +45,7 @@ Contents
 - [ Space Used               ](#space-used)
 - [ Malfunc. Drives          ](#malfunc-drives)
 - [ Malfunc. Drive Vendor    ](#malfunc-drive-vendor)
+- [ Malfunc. HDD Vendor      ](#malfunc-hdd-vendor)
 - [ Malfunc. Drive Kind      ](#malfunc-drive-kind)
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
@@ -75,9 +76,15 @@ Contents
 - [ Multiple Monitors        ](#multiple-monitors)
 - [ Net Controller Vendor    ](#net-controller-vendor)
 - [ Net Controller Model     ](#net-controller-model)
+- [ Wireless Vendor          ](#wireless-vendor)
+- [ Wireless Model           ](#wireless-model)
+- [ Ethernet Vendor          ](#ethernet-vendor)
+- [ Ethernet Model           ](#ethernet-model)
 - [ Net Controller Kind      ](#net-controller-kind)
 - [ Used Controller          ](#used-controller)
 - [ NICs                     ](#nics)
+- [ Bluetooth Vendor         ](#bluetooth-vendor)
+- [ Bluetooth Model          ](#bluetooth-model)
 - [ Unsupported Devices      ](#unsupported-devices)
 - [ Unsupported Device Types ](#unsupported-device-types)
 
@@ -703,6 +710,21 @@ Vendors of faulty drives
 | Hitachi             | 1         | 1      | 12.5%   |
 | Crucial             | 1         | 1      | 12.5%   |
 
+Malfunc. HDD Vendor
+-------------------
+
+Vendors of faulty HDD drives
+
+![Malfunc. HDD Vendor](./images/pie_chart_bsd/drive_malfunc_hdd_vendor.svg)
+
+![Malfunc. HDD Vendor](./images/line_chart_bsd/drive_malfunc_hdd_vendor.svg)
+
+| Vendor  | Computers | Drives | Percent |
+|---------|-----------|--------|---------|
+| Seagate | 2         | 2      | 50%     |
+| Toshiba | 1         | 1      | 25%     |
+| Hitachi | 1         | 1      | 25%     |
+
 Malfunc. Drive Kind
 -------------------
 
@@ -980,10 +1002,10 @@ Vendors of graphics cards
 
 | Vendor                           | Computers | Percent |
 |----------------------------------|-----------|---------|
-| Intel                            | 31        | 72.09%  |
-| Nvidia                           | 8         | 18.6%   |
-| AMD                              | 3         | 6.98%   |
-| Silicon Integrated Systems [SiS] | 1         | 2.33%   |
+| Intel                            | 32        | 72.73%  |
+| Nvidia                           | 8         | 18.18%  |
+| AMD                              | 3         | 6.82%   |
+| Silicon Integrated Systems [SiS] | 1         | 2.27%   |
 
 GPU Model
 ---------
@@ -996,35 +1018,35 @@ Graphics card models
 
 | Model                                                                   | Computers | Percent |
 |-------------------------------------------------------------------------|-----------|---------|
-| HD Graphics 620                                                         | 4         | 9.09%   |
-| Core Processor Integrated Graphics Controller                           | 4         | 9.09%   |
-| 3rd Gen Core processor Graphics Controller                              | 4         | 9.09%   |
-| 2nd Generation Core Processor Family Integrated Graphics Controller     | 4         | 9.09%   |
-| Skylake GT2 [HD Graphics 520]                                           | 2         | 4.55%   |
-| HD Graphics 530                                                         | 2         | 4.55%   |
-| 4th Gen Core Processor Integrated Graphics Controller                   | 2         | 4.55%   |
-| Vega 10 XL/XT [Radeon RX Vega 56/64]                                    | 1         | 2.27%   |
-| UHD Graphics 630 (Mobile)                                               | 1         | 2.27%   |
-| UHD Graphics 620                                                        | 1         | 2.27%   |
-| TU106M [GeForce RTX 2070 Mobile]                                        | 1         | 2.27%   |
-| RV710/M92 [Mobility Radeon HD 4530/4570/545v]                           | 1         | 2.27%   |
-| RV515/M52 [Mobility Radeon X1300]                                       | 1         | 2.27%   |
-| Mobile 945GM/GMS/GME, 943/940GML Express Integrated Graphics Controller | 1         | 2.27%   |
-| Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller     | 1         | 2.27%   |
-| HD Graphics 630                                                         | 1         | 2.27%   |
-| HD Graphics 520                                                         | 1         | 2.27%   |
-| HD Graphics                                                             | 1         | 2.27%   |
-| Haswell-ULT Integrated Graphics Controller                              | 1         | 2.27%   |
-| GP107M [GeForce GTX 1050 Ti Mobile]                                     | 1         | 2.27%   |
-| GM108M [GeForce 940MX]                                                  | 1         | 2.27%   |
-| GF119M [NVS 4200M]                                                      | 1         | 2.27%   |
-| GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]           | 1         | 2.27%   |
-| GF108GLM [Quadro 1000M]                                                 | 1         | 2.27%   |
-| GF108GLM [NVS 5200M]                                                    | 1         | 2.27%   |
-| G98M [GeForce 9300M GS]                                                 | 1         | 2.27%   |
-| Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller       | 1         | 2.27%   |
-| 82852/855GM Integrated Graphics Device                                  | 1         | 2.27%   |
-| 661/741/760 PCI/AGP or 662/761Gx PCIE VGA Display Adapter               | 1         | 2.27%   |
+| HD Graphics 620                                                         | 4         | 8.89%   |
+| Core Processor Integrated Graphics Controller                           | 4         | 8.89%   |
+| 3rd Gen Core processor Graphics Controller                              | 4         | 8.89%   |
+| 2nd Generation Core Processor Family Integrated Graphics Controller     | 4         | 8.89%   |
+| Skylake GT2 [HD Graphics 520]                                           | 2         | 4.44%   |
+| HD Graphics 530                                                         | 2         | 4.44%   |
+| Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller       | 2         | 4.44%   |
+| 4th Gen Core Processor Integrated Graphics Controller                   | 2         | 4.44%   |
+| Vega 10 XL/XT [Radeon RX Vega 56/64]                                    | 1         | 2.22%   |
+| UHD Graphics 630 (Mobile)                                               | 1         | 2.22%   |
+| UHD Graphics 620                                                        | 1         | 2.22%   |
+| TU106M [GeForce RTX 2070 Mobile]                                        | 1         | 2.22%   |
+| RV710/M92 [Mobility Radeon HD 4530/4570/545v]                           | 1         | 2.22%   |
+| RV515/M52 [Mobility Radeon X1300]                                       | 1         | 2.22%   |
+| Mobile 945GM/GMS/GME, 943/940GML Express Integrated Graphics Controller | 1         | 2.22%   |
+| Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller     | 1         | 2.22%   |
+| HD Graphics 630                                                         | 1         | 2.22%   |
+| HD Graphics 520                                                         | 1         | 2.22%   |
+| HD Graphics                                                             | 1         | 2.22%   |
+| Haswell-ULT Integrated Graphics Controller                              | 1         | 2.22%   |
+| GP107M [GeForce GTX 1050 Ti Mobile]                                     | 1         | 2.22%   |
+| GM108M [GeForce 940MX]                                                  | 1         | 2.22%   |
+| GF119M [NVS 4200M]                                                      | 1         | 2.22%   |
+| GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]           | 1         | 2.22%   |
+| GF108GLM [Quadro 1000M]                                                 | 1         | 2.22%   |
+| GF108GLM [NVS 5200M]                                                    | 1         | 2.22%   |
+| G98M [GeForce 9300M GS]                                                 | 1         | 2.22%   |
+| 82852/855GM Integrated Graphics Device                                  | 1         | 2.22%   |
+| 661/741/760 PCI/AGP or 662/761Gx PCIE VGA Display Adapter               | 1         | 2.22%   |
 
 GPU Combo
 ---------
@@ -1086,17 +1108,17 @@ Monitor vendors
 
 | Vendor                  | Computers | Percent |
 |-------------------------|-----------|---------|
-| LG Display              | 7         | 21.88%  |
-| AU Optronics            | 7         | 21.88%  |
-| Lenovo                  | 6         | 18.75%  |
-| Dell                    | 3         | 9.38%   |
-| Samsung Electronics     | 2         | 6.25%   |
-| Chimei Innolux          | 2         | 6.25%   |
-| Sharp                   | 1         | 3.13%   |
-| CPT                     | 1         | 3.13%   |
-| Chi Mei Optoelectronics | 1         | 3.13%   |
-| BOE                     | 1         | 3.13%   |
-| Ancor Communications    | 1         | 3.13%   |
+| LG Display              | 7         | 21.21%  |
+| AU Optronics            | 7         | 21.21%  |
+| Lenovo                  | 6         | 18.18%  |
+| Samsung Electronics     | 3         | 9.09%   |
+| Dell                    | 3         | 9.09%   |
+| Chimei Innolux          | 2         | 6.06%   |
+| Sharp                   | 1         | 3.03%   |
+| CPT                     | 1         | 3.03%   |
+| Chi Mei Optoelectronics | 1         | 3.03%   |
+| BOE                     | 1         | 3.03%   |
+| Ancor Communications    | 1         | 3.03%   |
 
 Monitor Model
 -------------
@@ -1109,35 +1131,36 @@ Monitor models
 
 | Model                                             | Computers | Percent |
 |---------------------------------------------------|-----------|---------|
-| LCD Monitor LEN4036 1440x900 300x190mm 14.0-inch  | 3         | 9.38%   |
-| U2414H DELA0A2 1920x1080 530x300mm 24.0-inch      | 2         | 6.25%   |
-| U2312HM DEL4071 1920x1080 510x290mm 23.1-inch     | 1         | 3.13%   |
-| LCD Monitor SHP1449 1920x1080 290x170mm 13.2-inch | 1         | 3.13%   |
-| LCD Monitor SDCA029 3840x2160 340x190mm 15.3-inch | 1         | 3.13%   |
-| LCD Monitor SDC364D 1920x1080 310x170mm 13.9-inch | 1         | 3.13%   |
-| LCD Monitor LGD046F 1920x1080 340x190mm 15.3-inch | 1         | 3.13%   |
-| LCD Monitor LGD03ED 1366x768 280x160mm 12.7-inch  | 1         | 3.13%   |
-| LCD Monitor LGD0382 1600x900 310x170mm 13.9-inch  | 1         | 3.13%   |
-| LCD Monitor LGD0362 1600x900 310x170mm 13.9-inch  | 1         | 3.13%   |
-| LCD Monitor LGD02EB 1366x768 310x170mm 13.9-inch  | 1         | 3.13%   |
-| LCD Monitor LGD02E2 1600x900 310x170mm 13.9-inch  | 1         | 3.13%   |
-| LCD Monitor LGD02D8 1366x768 280x160mm 12.7-inch  | 1         | 3.13%   |
-| LCD Monitor LEN40B0 1366x768 340x190mm 15.3-inch  | 1         | 3.13%   |
-| LCD Monitor LEN4043 1400x1050 300x230mm 14.9-inch | 1         | 3.13%   |
-| LCD Monitor LEN4000 1024x768 250x180mm 12.1-inch  | 1         | 3.13%   |
-| LCD Monitor COR0207 1366x768 310x170mm 13.9-inch  | 1         | 3.13%   |
-| LCD Monitor CMO1457 1366x768 310x170mm 13.9-inch  | 1         | 3.13%   |
-| LCD Monitor CMN15C2 1920x1080 340x190mm 15.3-inch | 1         | 3.13%   |
-| LCD Monitor CMN1375 1920x1080 290x170mm 13.2-inch | 1         | 3.13%   |
-| LCD Monitor BOE0714 1920x1080 310x170mm 13.9-inch | 1         | 3.13%   |
-| LCD Monitor AUO40EC 1366x768 340x190mm 15.3-inch  | 1         | 3.13%   |
-| LCD Monitor AUO333C 1366x768 310x170mm 13.9-inch  | 1         | 3.13%   |
-| LCD Monitor AUO313D 1920x1080 310x170mm 13.9-inch | 1         | 3.13%   |
-| LCD Monitor AUO226D 1920x1080 280x160mm 12.7-inch | 1         | 3.13%   |
-| LCD Monitor AUO173D 1920x1080 310x170mm 13.9-inch | 1         | 3.13%   |
-| LCD Monitor AUO106C 1366x768 280x160mm 12.7-inch  | 1         | 3.13%   |
-| LCD Monitor 1920x1080                             | 1         | 3.13%   |
-| ASUS VS229 ACI22C2 1920x1080 480x270mm 21.7-inch  | 1         | 3.13%   |
+| LCD Monitor LEN4036 1440x900 300x190mm 14.0-inch  | 3         | 9.09%   |
+| U2414H DELA0A2 1920x1080 530x300mm 24.0-inch      | 2         | 6.06%   |
+| U2312HM DEL4071 1920x1080 510x290mm 23.1-inch     | 1         | 3.03%   |
+| LCD Monitor SHP1449 1920x1080 290x170mm 13.2-inch | 1         | 3.03%   |
+| LCD Monitor SEC3030 1024x600 220x130mm 10.1-inch  | 1         | 3.03%   |
+| LCD Monitor SDCA029 3840x2160 340x190mm 15.3-inch | 1         | 3.03%   |
+| LCD Monitor SDC364D 1920x1080 310x170mm 13.9-inch | 1         | 3.03%   |
+| LCD Monitor LGD046F 1920x1080 340x190mm 15.3-inch | 1         | 3.03%   |
+| LCD Monitor LGD03ED 1366x768 280x160mm 12.7-inch  | 1         | 3.03%   |
+| LCD Monitor LGD0382 1600x900 310x170mm 13.9-inch  | 1         | 3.03%   |
+| LCD Monitor LGD0362 1600x900 310x170mm 13.9-inch  | 1         | 3.03%   |
+| LCD Monitor LGD02EB 1366x768 310x170mm 13.9-inch  | 1         | 3.03%   |
+| LCD Monitor LGD02E2 1600x900 310x170mm 13.9-inch  | 1         | 3.03%   |
+| LCD Monitor LGD02D8 1366x768 280x160mm 12.7-inch  | 1         | 3.03%   |
+| LCD Monitor LEN40B0 1366x768 340x190mm 15.3-inch  | 1         | 3.03%   |
+| LCD Monitor LEN4043 1400x1050 300x230mm 14.9-inch | 1         | 3.03%   |
+| LCD Monitor LEN4000 1024x768 250x180mm 12.1-inch  | 1         | 3.03%   |
+| LCD Monitor COR0207 1366x768 310x170mm 13.9-inch  | 1         | 3.03%   |
+| LCD Monitor CMO1457 1366x768 310x170mm 13.9-inch  | 1         | 3.03%   |
+| LCD Monitor CMN15C2 1920x1080 340x190mm 15.3-inch | 1         | 3.03%   |
+| LCD Monitor CMN1375 1920x1080 290x170mm 13.2-inch | 1         | 3.03%   |
+| LCD Monitor BOE0714 1920x1080 310x170mm 13.9-inch | 1         | 3.03%   |
+| LCD Monitor AUO40EC 1366x768 340x190mm 15.3-inch  | 1         | 3.03%   |
+| LCD Monitor AUO333C 1366x768 310x170mm 13.9-inch  | 1         | 3.03%   |
+| LCD Monitor AUO313D 1920x1080 310x170mm 13.9-inch | 1         | 3.03%   |
+| LCD Monitor AUO226D 1920x1080 280x160mm 12.7-inch | 1         | 3.03%   |
+| LCD Monitor AUO173D 1920x1080 310x170mm 13.9-inch | 1         | 3.03%   |
+| LCD Monitor AUO106C 1366x768 280x160mm 12.7-inch  | 1         | 3.03%   |
+| LCD Monitor 1920x1080                             | 1         | 3.03%   |
+| ASUS VS229 ACI22C2 1920x1080 480x270mm 21.7-inch  | 1         | 3.03%   |
 
 Monitor Resolution
 ------------------
@@ -1150,13 +1173,14 @@ Monitor screen resolution
 
 | Resolution       | Computers | Percent |
 |------------------|-----------|---------|
-| 1920x1080 (FHD)  | 14        | 43.75%  |
-| 1366x768 (WXGA)  | 9         | 28.13%  |
-| 1600x900 (HD+)   | 3         | 9.38%   |
-| 1440x900 (WXGA+) | 3         | 9.38%   |
-| 3840x2160 (4K)   | 1         | 3.13%   |
-| 1400x1050        | 1         | 3.13%   |
-| 1024x768 (XGA)   | 1         | 3.13%   |
+| 1920x1080 (FHD)  | 14        | 42.42%  |
+| 1366x768 (WXGA)  | 9         | 27.27%  |
+| 1600x900 (HD+)   | 3         | 9.09%   |
+| 1440x900 (WXGA+) | 3         | 9.09%   |
+| 3840x2160 (4K)   | 1         | 3.03%   |
+| 1400x1050        | 1         | 3.03%   |
+| 1024x768 (XGA)   | 1         | 3.03%   |
+| 1024x600         | 1         | 3.03%   |
 
 Monitor Diagonal
 ----------------
@@ -1169,14 +1193,15 @@ Diagonal size in inches
 
 | Inches  | Computers | Percent |
 |---------|-----------|---------|
-| 13      | 13        | 40.63%  |
-| 15      | 5         | 15.63%  |
-| 12      | 5         | 15.63%  |
-| 14      | 4         | 12.5%   |
-| 24      | 2         | 6.25%   |
-| 23      | 1         | 3.13%   |
-| 21      | 1         | 3.13%   |
-| Unknown | 1         | 3.13%   |
+| 13      | 13        | 39.39%  |
+| 15      | 5         | 15.15%  |
+| 12      | 5         | 15.15%  |
+| 14      | 4         | 12.12%  |
+| 24      | 2         | 6.06%   |
+| 23      | 1         | 3.03%   |
+| 21      | 1         | 3.03%   |
+| 10      | 1         | 3.03%   |
+| Unknown | 1         | 3.03%   |
 
 Monitor Width
 -------------
@@ -1189,11 +1214,11 @@ Physical width
 
 | Width in mm | Computers | Percent |
 |-------------|-----------|---------|
-| 301-350     | 16        | 50%     |
-| 201-300     | 11        | 34.38%  |
-| 501-600     | 3         | 9.38%   |
-| 401-500     | 1         | 3.13%   |
-| Unknown     | 1         | 3.13%   |
+| 301-350     | 16        | 48.48%  |
+| 201-300     | 12        | 36.36%  |
+| 501-600     | 3         | 9.09%   |
+| 401-500     | 1         | 3.03%   |
+| Unknown     | 1         | 3.03%   |
 
 Aspect Ratio
 ------------
@@ -1206,10 +1231,10 @@ Proportional relationship between the width and the height
 
 | Ratio   | Computers | Percent |
 |---------|-----------|---------|
-| 16/9    | 23        | 79.31%  |
-| 16/10   | 3         | 10.34%  |
-| 4/3     | 2         | 6.9%    |
-| Unknown | 1         | 3.45%   |
+| 16/9    | 24        | 80%     |
+| 16/10   | 3         | 10%     |
+| 4/3     | 2         | 6.67%   |
+| Unknown | 1         | 3.33%   |
 
 Monitor Area
 ------------
@@ -1222,13 +1247,14 @@ Area in inch²
 
 | Area in inch² | Computers | Percent |
 |----------------|-----------|---------|
-| 81-90          | 14        | 43.75%  |
-| 61-70          | 5         | 15.63%  |
-| 91-100         | 5         | 15.63%  |
-| 201-250        | 4         | 12.5%   |
-| 71-80          | 2         | 6.25%   |
-| 101-110        | 1         | 3.13%   |
-| Unknown        | 1         | 3.13%   |
+| 81-90          | 14        | 42.42%  |
+| 61-70          | 5         | 15.15%  |
+| 91-100         | 5         | 15.15%  |
+| 201-250        | 4         | 12.12%  |
+| 71-80          | 2         | 6.06%   |
+| 41-50          | 1         | 3.03%   |
+| 101-110        | 1         | 3.03%   |
+| Unknown        | 1         | 3.03%   |
 
 Pixel Density
 -------------
@@ -1241,12 +1267,12 @@ Pixels per inch
 
 | Density       | Computers | Percent |
 |---------------|-----------|---------|
-| 121-160       | 15        | 46.88%  |
-| 101-120       | 9         | 28.13%  |
-| 161-240       | 3         | 9.38%   |
-| 51-100        | 3         | 9.38%   |
-| More than 240 | 1         | 3.13%   |
-| Unknown       | 1         | 3.13%   |
+| 121-160       | 15        | 45.45%  |
+| 101-120       | 10        | 30.3%   |
+| 161-240       | 3         | 9.09%   |
+| 51-100        | 3         | 9.09%   |
+| More than 240 | 1         | 3.03%   |
+| Unknown       | 1         | 3.03%   |
 
 Multiple Monitors
 -----------------
@@ -1274,15 +1300,15 @@ Controller vendors
 
 | Vendor                           | Computers | Percent |
 |----------------------------------|-----------|---------|
-| Intel                            | 30        | 57.69%  |
-| Realtek Semiconductor            | 7         | 13.46%  |
-| Qualcomm Atheros                 | 7         | 13.46%  |
-| Silicon Integrated Systems [SiS] | 2         | 3.85%   |
-| JMicron Technology               | 2         | 3.85%   |
-| Realtek                          | 1         | 1.92%   |
-| Ralink                           | 1         | 1.92%   |
-| Hewlett-Packard                  | 1         | 1.92%   |
-| Atheros                          | 1         | 1.92%   |
+| Intel                            | 30        | 56.6%   |
+| Realtek Semiconductor            | 8         | 15.09%  |
+| Qualcomm Atheros                 | 7         | 13.21%  |
+| Silicon Integrated Systems [SiS] | 2         | 3.77%   |
+| JMicron Technology               | 2         | 3.77%   |
+| Realtek                          | 1         | 1.89%   |
+| Ralink                           | 1         | 1.89%   |
+| Hewlett-Packard                  | 1         | 1.89%   |
+| Atheros                          | 1         | 1.89%   |
 
 Net Controller Model
 --------------------
@@ -1295,46 +1321,145 @@ Controller models
 
 | Model                                                        | Computers | Percent |
 |--------------------------------------------------------------|-----------|---------|
-| 82579LM Gigabit Network Connection (Lewisville)              | 7         | 9.33%   |
-| Wireless 8265 / 8275                                         | 6         | 8%      |
-| Centrino Advanced-N 6205 [Taylor Peak]                       | 6         | 8%      |
-| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller    | 4         | 5.33%   |
-| Centrino Ultimate-N 6300                                     | 4         | 5.33%   |
-| Wireless 8260                                                | 3         | 4%      |
-| RTL810xE PCI Express Fast Ethernet controller                | 3         | 4%      |
-| AR9285 Wireless Network Adapter (PCI-Express)                | 3         | 4%      |
-| 82577LM Gigabit Network Connection                           | 3         | 4%      |
-| Wireless 7260                                                | 2         | 2.67%   |
-| Ethernet Connection I217-LM                                  | 2         | 2.67%   |
-| Ethernet Connection (2) I219-LM                              | 2         | 2.67%   |
-| Centrino Advanced-N 6200                                     | 2         | 2.67%   |
-| 82573L Gigabit Ethernet Controller                           | 2         | 2.67%   |
-| Wireless 7265                                                | 1         | 1.33%   |
-| Wi-Fi 6 AX200                                                | 1         | 1.33%   |
-| SiS900 PCI Fast Ethernet                                     | 1         | 1.33%   |
-| RTL8191SEvB Wireless LAN Controller                          | 1         | 1.33%   |
-| RTL-8100/8101L/8139 PCI Fast Ethernet Adapter                | 1         | 1.33%   |
-| RT3090 Wireless 802.11n 1T/1R PCIe                           | 1         | 1.33%   |
-| PRO/Wireless 3945ABG [Golan] Network Connection              | 1         | 1.33%   |
-| Killer E2500 Gigabit Ethernet Controller                     | 1         | 1.33%   |
-| JMC260 PCI Express Fast Ethernet Controller                  | 1         | 1.33%   |
-| JMC250 PCI Express Gigabit Ethernet Controller               | 1         | 1.33%   |
-| hs2340 HSPA+ mobile broadband                                | 1         | 1.33%   |
-| Ethernet Connection I219-V                                   | 1         | 1.33%   |
-| Ethernet Connection I219-LM                                  | 1         | 1.33%   |
-| Ethernet Connection I218-LM                                  | 1         | 1.33%   |
-| Ethernet Connection (4) I219-V                               | 1         | 1.33%   |
-| Ethernet Connection (4) I219-LM                              | 1         | 1.33%   |
-| Dual Band Wireless-AC 3165 Plus Bluetooth                    | 1         | 1.33%   |
-| Centrino Wireless-N 2230                                     | 1         | 1.33%   |
-| Centrino Advanced-N 6235                                     | 1         | 1.33%   |
-| AR928X Wireless Network Adapter (PCI-Express)                | 1         | 1.33%   |
-| AR8151 v2.0 Gigabit Ethernet                                 | 1         | 1.33%   |
-| AR8151 v1.0 Gigabit Ethernet                                 | 1         | 1.33%   |
-| AR5212 802.11abg NIC                                         | 1         | 1.33%   |
-| AR2413/AR2414 Wireless Network Adapter [AR5005G(S) 802.11bg] | 1         | 1.33%   |
-| AC'97 Modem Controller                                       | 1         | 1.33%   |
-| 191 Gigabit Ethernet Adapter                                 | 1         | 1.33%   |
+| 82579LM Gigabit Network Connection (Lewisville)              | 7         | 9.09%   |
+| Wireless 8265 / 8275                                         | 6         | 7.79%   |
+| Centrino Advanced-N 6205 [Taylor Peak]                       | 6         | 7.79%   |
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller    | 4         | 5.19%   |
+| Centrino Ultimate-N 6300                                     | 4         | 5.19%   |
+| Wireless 8260                                                | 3         | 3.9%    |
+| RTL810xE PCI Express Fast Ethernet controller                | 3         | 3.9%    |
+| AR9285 Wireless Network Adapter (PCI-Express)                | 3         | 3.9%    |
+| 82577LM Gigabit Network Connection                           | 3         | 3.9%    |
+| Wireless 7260                                                | 2         | 2.6%    |
+| RTL8188EUS 802.11n Wireless Network Adapter                  | 2         | 2.6%    |
+| Ethernet Connection I217-LM                                  | 2         | 2.6%    |
+| Ethernet Connection (2) I219-LM                              | 2         | 2.6%    |
+| Centrino Advanced-N 6200                                     | 2         | 2.6%    |
+| 82573L Gigabit Ethernet Controller                           | 2         | 2.6%    |
+| Wireless 7265                                                | 1         | 1.3%    |
+| Wi-Fi 6 AX200                                                | 1         | 1.3%    |
+| SiS900 PCI Fast Ethernet                                     | 1         | 1.3%    |
+| RTL8191SEvB Wireless LAN Controller                          | 1         | 1.3%    |
+| RTL-8100/8101L/8139 PCI Fast Ethernet Adapter                | 1         | 1.3%    |
+| RT3090 Wireless 802.11n 1T/1R PCIe                           | 1         | 1.3%    |
+| PRO/Wireless 3945ABG [Golan] Network Connection              | 1         | 1.3%    |
+| Killer E2500 Gigabit Ethernet Controller                     | 1         | 1.3%    |
+| JMC260 PCI Express Fast Ethernet Controller                  | 1         | 1.3%    |
+| JMC250 PCI Express Gigabit Ethernet Controller               | 1         | 1.3%    |
+| hs2340 HSPA+ mobile broadband                                | 1         | 1.3%    |
+| Ethernet Connection I219-V                                   | 1         | 1.3%    |
+| Ethernet Connection I219-LM                                  | 1         | 1.3%    |
+| Ethernet Connection I218-LM                                  | 1         | 1.3%    |
+| Ethernet Connection (4) I219-V                               | 1         | 1.3%    |
+| Ethernet Connection (4) I219-LM                              | 1         | 1.3%    |
+| Dual Band Wireless-AC 3165 Plus Bluetooth                    | 1         | 1.3%    |
+| Centrino Wireless-N 2230                                     | 1         | 1.3%    |
+| Centrino Advanced-N 6235                                     | 1         | 1.3%    |
+| AR928X Wireless Network Adapter (PCI-Express)                | 1         | 1.3%    |
+| AR8151 v2.0 Gigabit Ethernet                                 | 1         | 1.3%    |
+| AR8151 v1.0 Gigabit Ethernet                                 | 1         | 1.3%    |
+| AR5212 802.11abg NIC                                         | 1         | 1.3%    |
+| AR2413/AR2414 Wireless Network Adapter [AR5005G(S) 802.11bg] | 1         | 1.3%    |
+| AC'97 Modem Controller                                       | 1         | 1.3%    |
+| 191 Gigabit Ethernet Adapter                                 | 1         | 1.3%    |
+
+Wireless Vendor
+---------------
+
+Wireless vendors
+
+![Wireless Vendor](./images/pie_chart_bsd/net_wireless_vendor.svg)
+
+![Wireless Vendor](./images/line_chart_bsd/net_wireless_vendor.svg)
+
+| Vendor                | Computers | Percent |
+|-----------------------|-----------|---------|
+| Intel                 | 29        | 74.36%  |
+| Qualcomm Atheros      | 5         | 12.82%  |
+| Realtek Semiconductor | 3         | 7.69%   |
+| Ralink                | 1         | 2.56%   |
+| Atheros               | 1         | 2.56%   |
+
+Wireless Model
+--------------
+
+Wireless models
+
+![Wireless Model](./images/pie_chart_bsd/net_wireless_model.svg)
+
+![Wireless Model](./images/line_chart_bsd/net_wireless_model.svg)
+
+| Model                                                        | Computers | Percent |
+|--------------------------------------------------------------|-----------|---------|
+| Wireless 8265 / 8275                                         | 6         | 15.38%  |
+| Centrino Advanced-N 6205 [Taylor Peak]                       | 6         | 15.38%  |
+| Centrino Ultimate-N 6300                                     | 4         | 10.26%  |
+| Wireless 8260                                                | 3         | 7.69%   |
+| AR9285 Wireless Network Adapter (PCI-Express)                | 3         | 7.69%   |
+| Wireless 7260                                                | 2         | 5.13%   |
+| RTL8188EUS 802.11n Wireless Network Adapter                  | 2         | 5.13%   |
+| Centrino Advanced-N 6200                                     | 2         | 5.13%   |
+| Wireless 7265                                                | 1         | 2.56%   |
+| Wi-Fi 6 AX200                                                | 1         | 2.56%   |
+| RTL8191SEvB Wireless LAN Controller                          | 1         | 2.56%   |
+| RT3090 Wireless 802.11n 1T/1R PCIe                           | 1         | 2.56%   |
+| PRO/Wireless 3945ABG [Golan] Network Connection              | 1         | 2.56%   |
+| Dual Band Wireless-AC 3165 Plus Bluetooth                    | 1         | 2.56%   |
+| Centrino Wireless-N 2230                                     | 1         | 2.56%   |
+| Centrino Advanced-N 6235                                     | 1         | 2.56%   |
+| AR928X Wireless Network Adapter (PCI-Express)                | 1         | 2.56%   |
+| AR5212 802.11abg NIC                                         | 1         | 2.56%   |
+| AR2413/AR2414 Wireless Network Adapter [AR5005G(S) 802.11bg] | 1         | 2.56%   |
+
+Ethernet Vendor
+---------------
+
+Ethernet vendors
+
+![Ethernet Vendor](./images/pie_chart_bsd/net_ethernet_vendor.svg)
+
+![Ethernet Vendor](./images/line_chart_bsd/net_ethernet_vendor.svg)
+
+| Vendor                           | Computers | Percent |
+|----------------------------------|-----------|---------|
+| Intel                            | 21        | 58.33%  |
+| Realtek Semiconductor            | 7         | 19.44%  |
+| Qualcomm Atheros                 | 3         | 8.33%   |
+| Silicon Integrated Systems [SiS] | 2         | 5.56%   |
+| JMicron Technology               | 2         | 5.56%   |
+| Realtek                          | 1         | 2.78%   |
+
+Ethernet Model
+--------------
+
+Ethernet models
+
+![Ethernet Model](./images/pie_chart_bsd/net_ethernet_model.svg)
+
+![Ethernet Model](./images/line_chart_bsd/net_ethernet_model.svg)
+
+| Model                                                     | Computers | Percent |
+|-----------------------------------------------------------|-----------|---------|
+| 82579LM Gigabit Network Connection (Lewisville)           | 7         | 19.44%  |
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller | 4         | 11.11%  |
+| RTL810xE PCI Express Fast Ethernet controller             | 3         | 8.33%   |
+| 82577LM Gigabit Network Connection                        | 3         | 8.33%   |
+| Ethernet Connection I217-LM                               | 2         | 5.56%   |
+| Ethernet Connection (2) I219-LM                           | 2         | 5.56%   |
+| 82573L Gigabit Ethernet Controller                        | 2         | 5.56%   |
+| SiS900 PCI Fast Ethernet                                  | 1         | 2.78%   |
+| RTL-8100/8101L/8139 PCI Fast Ethernet Adapter             | 1         | 2.78%   |
+| Killer E2500 Gigabit Ethernet Controller                  | 1         | 2.78%   |
+| JMC260 PCI Express Fast Ethernet Controller               | 1         | 2.78%   |
+| JMC250 PCI Express Gigabit Ethernet Controller            | 1         | 2.78%   |
+| Ethernet Connection I219-V                                | 1         | 2.78%   |
+| Ethernet Connection I219-LM                               | 1         | 2.78%   |
+| Ethernet Connection I218-LM                               | 1         | 2.78%   |
+| Ethernet Connection (4) I219-V                            | 1         | 2.78%   |
+| Ethernet Connection (4) I219-LM                           | 1         | 2.78%   |
+| AR8151 v2.0 Gigabit Ethernet                              | 1         | 2.78%   |
+| AR8151 v1.0 Gigabit Ethernet                              | 1         | 2.78%   |
+| 191 Gigabit Ethernet Adapter                              | 1         | 2.78%   |
 
 Net Controller Kind
 -------------------
@@ -1347,9 +1472,9 @@ Ethernet, WiFi or modem
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| WiFi     | 37        | 49.33%  |
-| Ethernet | 36        | 48%     |
-| Modem    | 2         | 2.67%   |
+| WiFi     | 38        | 50%     |
+| Ethernet | 36        | 47.37%  |
+| Modem    | 2         | 2.63%   |
 
 Used Controller
 ---------------
@@ -1362,8 +1487,8 @@ Currently used network controller
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| WiFi     | 26        | 60.47%  |
-| Ethernet | 17        | 39.53%  |
+| WiFi     | 33        | 53.23%  |
+| Ethernet | 29        | 46.77%  |
 
 NICs
 ----
@@ -1379,6 +1504,43 @@ Total network controllers on board
 | 2     | 34        | 89.47%  |
 | 1     | 3         | 7.89%   |
 | 0     | 1         | 2.63%   |
+
+Bluetooth Vendor
+----------------
+
+Controller vendors
+
+![Bluetooth Vendor](./images/pie_chart_bsd/bt_vendor.svg)
+
+![Bluetooth Vendor](./images/line_chart_bsd/bt_vendor.svg)
+
+| Vendor           | Computers | Percent |
+|------------------|-----------|---------|
+| Intel            | 12        | 70.59%  |
+| Broadcom         | 2         | 11.76%  |
+| Hewlett-Packard  | 1         | 5.88%   |
+| Dell             | 1         | 5.88%   |
+| ASUSTek Computer | 1         | 5.88%   |
+
+Bluetooth Model
+---------------
+
+Controller models
+
+![Bluetooth Model](./images/pie_chart_bsd/bt_model.svg)
+
+![Bluetooth Model](./images/line_chart_bsd/bt_model.svg)
+
+| Model                             | Computers | Percent |
+|-----------------------------------|-----------|---------|
+| Bluetooth V4.2 Module             | 7         | 41.18%  |
+| USB 2.0 Bluetooth Adapter         | 2         | 11.76%  |
+| Bluetooth V4.0 Module             | 2         | 11.76%  |
+| BCM20702 Bluetooth 4.0 [ThinkPad] | 2         | 11.76%  |
+| Intel Wireless Bluetooth          | 1         | 5.88%   |
+| DW375 Bluetooth Module            | 1         | 5.88%   |
+| BT-253 Bluetooth Adapter          | 1         | 5.88%   |
+| Broadcom 2070 Bluetooth Combo     | 1         | 5.88%   |
 
 Unsupported Devices
 -------------------
@@ -1412,11 +1574,11 @@ Types of unsupported devices
 | Card reader              | 19        | 23.17%  |
 | Fingerprint reader       | 14        | 17.07%  |
 | Firewire controller      | 5         | 6.1%    |
-| Network                  | 4         | 4.88%   |
+| Net/wireless             | 4         | 4.88%   |
 | Bluetooth                | 4         | 4.88%   |
 | Sound                    | 2         | 2.44%   |
 | Storage                  | 1         | 1.22%   |
-| Net/wireless             | 1         | 1.22%   |
+| Network                  | 1         | 1.22%   |
 | Modem                    | 1         | 1.22%   |
 | Graphics card            | 1         | 1.22%   |
 
